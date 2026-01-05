@@ -38,8 +38,10 @@ def kth_smallest_binary(matrix, k):
             high = mid
     return low
 
+#Test
 matrix = [[1, 5, 9],
           [10, 11, 13],
           [12, 13, 15]]
 
 print(kth_smallest_binary(matrix, 8))
+
