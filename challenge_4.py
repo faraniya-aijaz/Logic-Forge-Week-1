@@ -1,3 +1,19 @@
+#first try 
+# def kth_smallest(matrix, k):
+#     nums = []
+#     for row in matrix:
+#         for num in row:
+#             nums.append(num)
+#     nums.sort()    
+#     return nums[k-1]
+# matrix = [
+#     [1, 5, 9],
+#     [10, 11, 13],
+#     [12, 13, 15]
+# ]
+# print(kth_smallest(matrix, 8)) 
+
+
 def count_less_equal(matrix, mid):
     n = len(matrix)
     row, col = n - 1, 0
@@ -22,8 +38,8 @@ def kth_smallest_binary(matrix, k):
             high = mid
     return low
 
-# Test
 matrix = [[1, 5, 9],
           [10, 11, 13],
           [12, 13, 15]]
+
 print(kth_smallest_binary(matrix, 8))
