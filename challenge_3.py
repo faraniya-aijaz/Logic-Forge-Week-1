@@ -1,3 +1,29 @@
+#FIRST TRY
+# def func(a, b):
+#     t = len(a) + len(b)
+#     m = t // 2
+
+#     i = 0
+#     j = 0
+#     x = 0
+#     y = 0
+
+#     for k in range(m + 1):
+#         x = y
+#         if i < len(a) and (j >= len(b) or a[i] <= b[j]):
+#             y = a[i]
+#             i += 1
+#         else:
+#             y = b[j]
+#             j += 1
+
+#     if t % 2 == 1:
+#         return y
+#     else:
+#         return (x + y) / 2
+
+# print(func([1, 3], [2]))   
+# print(func([1, 2], [3, 4]))
 def find_median(scoresA, scoresB):
     m = len(scoresA)
     n = len(scoresB)
@@ -24,3 +50,4 @@ def find_median(scoresA, scoresB):
         return (prev + curr) / 2
 print(find_median([1, 3], [2]))        
 print(find_median([1, 2], [3, 4]))   
+
